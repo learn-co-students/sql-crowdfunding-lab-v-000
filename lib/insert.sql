@@ -1,0 +1,65 @@
+insert into users values (1,'Noah',41);
+insert into users values (2,'Liam',33);
+insert into users values (3,'Mason',32);
+insert into users values (4,'Jacob',29);
+insert into users values (5,'William',32);
+insert into users values (6,'Ethan',44);
+insert into users values (7,'Michael',25);
+insert into users values (8,'Alexander',43);
+insert into users values (9,'James',37);
+insert into users values (10,'Daniel',26);
+insert into users values (11,'Emma',37);
+insert into users values (12,'Olivia',42);
+insert into users values (13,'Sophia',36);
+insert into users values (14,'Isabella',31);
+insert into users values (15,'Ava',26);
+insert into users values (16,'Mia',33);
+insert into users values (17,'Emily',28);
+insert into users values (18,'Abigail',41);
+insert into users values (19,'Madison',26);
+insert into users values (20,'Charlotte',35);
+
+insert into projects values(1, 'Project 4812', 'Game', 13226557, '2015-01-14', '2016-08-28');
+insert into projects values(2, 'Project 8825', 'Art', 5268836, '2015-01-15', '2016-02-28');
+insert into projects values(3, 'Project 6658', 'Wearable', 2770686, '2015-09-13', '2016-07-22');
+insert into projects values(4, 'Project 7423', 'Game', 17360593, '2015-02-10', '2016-04-26');
+insert into projects values(5, 'Project 8065', 'Art', 15025192, '2015-12-11', '2016-12-26');
+insert into projects values(6, 'Project 766', 'Wearable', 1962667, '2015-05-17', '2016-03-21');
+insert into projects values(7, 'Project 3195', 'Game', 14593843, '2015-07-28', '2016-12-19');
+insert into projects values(8, 'Project 2728', 'Art', 12621559, '2015-10-24', '2016-07-15');
+insert into projects values(9, 'Project 3728', 'Wearable', 6993788, '2015-12-26', '2016-03-14');
+insert into projects values(10, 'Project 3672', 'Game', 9585180, '2015-12-20', '2016-04-10');
+
+insert into pledges values (1, 43956, 14, 6);
+insert into pledges values (2, 18363, 16, 6);
+insert into pledges values (3, 47151, 16, 10);
+insert into pledges values (4, 21975, 14, 1);
+insert into pledges values (5, 9176, 16, 9);
+insert into pledges values (6, 43653, 16, 1);
+insert into pledges values (7, 36401, 9, 8);
+insert into pledges values (8, 27046, 12, 4);
+insert into pledges values (9, 1118, 8, 2);
+insert into pledges values (10, 2501, 20, 8);
+insert into pledges values (11, 14158, 20, 2);
+insert into pledges values (12, 19675, 7, 8);
+insert into pledges values (13, 23434, 3, 1);
+insert into pledges values (14, 19833, 2, 7);
+insert into pledges values (15, 41975, 10, 10);
+insert into pledges values (16, 3840, 18, 1);
+insert into pledges values (17, 15986, 13, 8);
+insert into pledges values (18, 49645, 19, 10);
+insert into pledges values (19, 48096, 3, 5);
+insert into pledges values (20, 29845, 10, 4);
+insert into pledges values (21, 27512, 17, 5);
+insert into pledges values (22, 31315, 1, 10);
+insert into pledges values (23, 45244, 11, 6);
+insert into pledges values (24, 1132, 9, 1);
+insert into pledges values (25, 49260, 20, 6);
+insert into pledges values (26, 35616, 9, 2);
+insert into pledges values (27, 6630, 8, 10);
+insert into pledges values (28, 6639, 18, 6);
+insert into pledges values (29, 11897, 11, 4);
+insert into pledges values (30, 44310, 6, 8);
+
+
+
