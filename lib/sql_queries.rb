@@ -7,25 +7,69 @@
 # Make sure each ruby method returns a string containing a valid SQL statement.
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts
-"Write your SQL query Here"
+  <<-SQL 
+  SELECT Projects.title, SUM(Pledges.amount)
+  FROM Projects
+  INNER JOIN Pledges
+  ON 
+  Projects.id = Pledges.project_id GROUP BY Projects.title;
+  SQL
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges
-"Write your SQL query Here"
+  <<-SQL 
+    SELECT Users.name, Users.age, SUM(Pledges.amount)
+    FROM Users
+    INNER JOIN Pledges
+    ON 
+    Users.id = Pledges.user_id GROUP BY Users.name;
+    SQL
 end
 
 def selects_the_titles_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
+  <<-SQL
+      SELECT Projects.title, (Projects.funding_goal - SUM(Pledges.amount))
+      FROM Projects
+      JOIN Pledges
+      ON
+      Projects.id = Pledges.project_id
+      GROUP BY
+      Projects.title
+      HAVING
+      Projects.funding_goal <= SUM(Pledges.amount)
+    SQL
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount
-"Write your SQL query Here"
+  <<-SQL
+    SELECT Users.name, SUM(Pledges.amount)
+    FROM Users
+    JOIN Pledges
+    ON
+    Users.id = Pledges.user_id 
+    GROUP BY Users.name ORDER BY SUM(Pledges.amount)
+  SQL
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"Write your SQL query Here"
+  <<-SQL
+    SELECT Projects.category, Pledges.amount
+    FROM Projects
+    JOIN Pledges
+    ON
+    Projects.id = Pledges.project_id 
+    WHERE Projects.category = "music" 
+  SQL
+
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_book_category
-"Write your SQL query Here"
+  <<-SQL
+    SELECT Projects.category, SUM(Pledges.amount)
+    FROM Projects
+    JOIN Pledges
+    ON
+    Projects.id = Pledges.project_id 
+    WHERE Projects.category = "books" 
+  SQL
 end
