@@ -1,0 +1,53 @@
+       
+group by pledges.amount, users.name order by pledges.amount
+exp: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Bear", 50], ["Hermione", 50], ["Rosey", 50], ["Pacha", 60], ["Sophie", 60], ["Finnebar", 70], ["Franz", 90], ["Ena", 100], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+got: [["Finnebar", 10], ["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Albus", 20], ["Alex", 20], ["Finnebar", 20], ["Pacha", 20], ["Marisa", 24], ["Voldemort", 34], ["Whale", 35.5], ["Amanda", 40], ["Ena", 40], ["Finnebar", 40], ["Franz", 40], ["Pacha", 40], ["Squid", 40], ["Bear", 50], ["Franz", 50], ["Hermione", 50], ["Rosey", 50], ["Ena", 60], ["Sophie", 60], ["Katie", 70], ["Whale", 90], ["Katie", 100], ["Squid", 230], ["Albus", 450], ["Victoria", 700], ["Victoria", 1000]]
+       
+
+group by users.name order by pledges.amount
+exp: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Bear", 50], ["Hermione", 50], ["Rosey", 50], ["Pacha", 60], ["Sophie", 60], ["Finnebar", 70], ["Franz", 90], ["Ena", 100], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+got: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Pacha", 60], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Ena", 100], ["Finnebar", 70], ["Bear", 50], ["Franz", 90], ["Hermione", 50], ["Rosey", 50], ["Sophie", 60], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+
+order by pledges.amount
+exp: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Bear", 50], ["Hermione", 50], ["Rosey", 50], ["Pacha", 60], ["Sophie", 60], ["Finnebar", 70], ["Franz", 90], ["Ena", 100], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+got: [["Albus", 3424.5]]
+
+
+group by users.name, pledges.amount
+exp: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Bear", 50], ["Hermione", 50], ["Rosey", 50], ["Pacha", 60], ["Sophie", 60], ["Finnebar", 70], ["Franz", 90], ["Ena", 100], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+got: [["Albus", 20], ["Albus", 450], ["Alex", 20], ["Amanda", 40], ["Bear", 50], ["Ena", 40], ["Ena", 60], ["Finnebar", 10], ["Finnebar", 20], ["Finnebar", 40], ["Franz", 40], ["Franz", 50], ["Hermione", 50], ["Iguana", 10], ["Katie", 70], ["Katie", 100], ["Marisa", 24], ["Pacha", 20], ["Pacha", 40], ["Rosey", 50], ["Sirius", 19], ["Sophie", 60], ["Squid", 40], ["Squid", 230], ["Swizzle", 12], ["Victoria", 700], ["Victoria", 1000], ["Voldemort", 34], ["Whale", 35.5], ["Whale", 90]]
+
+
+group by pledges.amount, users.name
+exp: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Bear", 50], ["Hermione", 50], ["Rosey", 50], ["Pacha", 60], ["Sophie", 60], ["Finnebar", 70], ["Franz", 90], ["Ena", 100], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+got: [["Finnebar", 10], ["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Albus", 20], ["Alex", 20], ["Finnebar", 20], ["Pacha", 20], ["Marisa", 24], ["Voldemort", 34], ["Whale", 35.5], ["Amanda", 40], ["Ena", 40], ["Finnebar", 40], ["Franz", 40], ["Pacha", 40], ["Squid", 40], ["Bear", 50], ["Franz", 50], ["Hermione", 50], ["Rosey", 50], ["Ena", 60], ["Sophie", 60], ["Katie", 70], ["Whale", 90], ["Katie", 100], ["Squid", 230], ["Albus", 450], ["Victoria", 700], ["Victoria", 1000]]
+
+
+
+group by users.name, pledges.amount order by pledges.amount
+exp: [["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Alex", 20], ["Marisa", 24], ["Voldemort", 34], ["Amanda", 40], ["Bear", 50], ["Hermione", 50], ["Rosey", 50], ["Pacha", 60], ["Sophie", 60], ["Finnebar", 70], ["Franz", 90], ["Ena", 100], ["Whale", 125.5], ["Katie", 170], ["Squid", 270], ["Albus", 470], ["Victoria", 1700]]
+
+got: [["Finnebar", 10], ["Iguana", 10], ["Swizzle", 12], ["Sirius", 19], ["Albus", 20], ["Alex", 20], ["Finnebar", 20], ["Pacha", 20], ["Marisa", 24], ["Voldemort", 34], ["Whale", 35.5], ["Amanda", 40], ["Ena", 40], ["Finnebar", 40], ["Franz", 40], ["Pacha", 40], ["Squid", 40], ["Bear", 50], ["Franz", 50], ["Hermione", 50], ["Rosey", 50], ["Ena", 60], ["Sophie", 60], ["Katie", 70], ["Whale", 90], ["Katie", 100], ["Squid", 230], ["Albus", 450], ["Victoria", 700], ["Victoria", 1000]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
