@@ -1,0 +1,70 @@
+INSERT INTO users (name, age) VALUES
+('Adrian', 31),
+('Andres', 17),
+('Andrea', 29),
+('Alfredo', 35),
+('Diana', 31),
+('Maju', 32),
+('Isabel', 19),
+('Camila', 17),
+('John', 28),
+('Mat', 39),
+('Avi', 35),
+('Josh', 22),
+('Sean', 18),
+('Patrick', 37),
+('Lauren', 34),
+('Julia', 20),
+('Gigi', 43),
+('Charlotte', 36),
+('Joshua', 29),
+('Cesar', 39);
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES 
+('buy computer', 'personal', 300, '2014-07-30', '2014-08-30'), 
+('buy chair', 'personal', 100, '2015-06-01', '2015-07-01'), 
+('pay rent', 'personal', 1400, '2013-05-30', '2013-07-30'), 
+('fix roof of shelter', 'charity', 4000, '2014-06-14', '2014-08-30'), 
+('buy food for animals', 'charity', 120, '2013-03-20', '2013-09-20'), 
+('pay hospital bills', 'personal', 1000, '2014-12-30', '2015-12-30'), 
+('wall restoration', 'charity', 670, '2013-10-02', '2013-10-30'), 
+('build help center', 'charity', 3400, '2014-06-30', '2014-06-31'), 
+('travel overseas', 'charity', 1500, '2013-06-30', '2013-09-30'), 
+('clean the river', 'charity', 10000, '2015-04-20', '2015-06-20');
+
+INSERT INTO pledges (amount, user_id, project_id) VALUES
+(17, 15, 2),
+(49, 4, 5),
+(48, 6, 1),
+(31, 16, 5),
+(84, 3, 6),
+(89, 16, 2),
+(87, 5, 6),
+(24, 2, 5),
+(71, 1, 2),
+(19, 19, 6),
+(10, 17, 4),
+(88, 4, 6),
+(43, 17, 9),
+(70, 20, 1),
+(10, 18, 6),
+(39, 11, 6),
+(33, 10, 8),
+(19, 2, 3),
+(69, 10, 10),
+(68, 10, 10),
+(82, 10, 5),
+(54, 19, 1),
+(60, 14, 2),
+(14, 7, 5),
+(33, 11, 6),
+(96, 14, 5),
+(15, 14, 10),
+(58, 7, 2),
+(97, 16, 9),
+(54, 10, 5);
+
+
+
+
+
