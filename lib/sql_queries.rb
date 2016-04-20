@@ -55,3 +55,5 @@ JOIN pledges ON projects.id = pledges.project_id
 WHERE projects.category = 'books'
 ;"
 end
+
+#done
