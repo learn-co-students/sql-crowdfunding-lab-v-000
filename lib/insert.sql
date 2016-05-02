@@ -1,0 +1,65 @@
+INSERT INTO users (name, age) VALUES ("Sam",2);
+INSERT INTO users (name, age) VALUES ("Mark",4);
+INSERT INTO users (name, age) VALUES ("Menaxhem",55);
+INSERT INTO users (name, age) VALUES ("Moishe",57);
+INSERT INTO users (name, age) VALUES ("Sholom",57);
+INSERT INTO users (name, age) VALUES ("Menashe",57);
+INSERT INTO users (name, age) VALUES ("Marin",57);
+INSERT INTO users (name, age) VALUES ("Luke",75);
+INSERT INTO users (name, age) VALUES ("Shmully",57);
+INSERT INTO users (name, age) VALUES ("Yosef",57);
+INSERT INTO users (name, age) VALUES ("Andrew",55);
+INSERT INTO users (name, age) VALUES ("Eyal",28);
+INSERT INTO users (name, age) VALUES ("Motti",89);
+INSERT INTO users (name, age) VALUES ("Yossi",76);
+INSERT INTO users (name, age) VALUES ("Barry",88);
+INSERT INTO users (name, age) VALUES ("Moe",85);
+INSERT INTO users (name, age) VALUES ("Putin",58);
+INSERT INTO users (name, age) VALUES ("Yankee",58);
+INSERT INTO users (name, age) VALUES ("Yanila",58);
+INSERT INTO users (name, age) VALUES ("Jason",58);
+
+
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 2", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("title 1", "Tech", 20000, "10/09/92", '10/09/1982' );
+
+
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125); 
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
+INSERT INTO pledges (amount) VALUES (125);
