@@ -15,15 +15,16 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges
-  "SELECT users.name, pledges.amount FROM users
-    JOIN pledges
-    ON pledges.user_id = users.id
-    GROUP BY pledges.id
+  "SELECT users.name, users.age, SUM(pledges.amount) FROM pledges
+    JOIN users
+    ON users.id = pledges.user_id
+    GROUP BY pledges.user_id
     ORDER BY users.name;"
+    #maybe switch tables or something like that...
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-  "SELECT projects.title, (pledges.amount - projects.funding_goal) FROM projects
+  "SELECT projects.title, (SUM(pledges.amount) - projects.funding_goal) FROM projects
     JOIN pledges
     ON pledges.project_id = projects.id
     GROUP BY projects.title
