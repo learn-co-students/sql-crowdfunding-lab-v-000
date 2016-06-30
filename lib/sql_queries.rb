@@ -21,7 +21,7 @@ end
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
 "SELECT title, SUM(pledges.amount) - funding_goal AS amount_over FROM projects
   JOIN pledges ON projects.id = pledges.project_id
-
+  WHERE amount_over >= projects.funding_goal
   GROUP BY title"
   #has to do with the join, since it's mentioning each instance instead of the ones that have more than funding goal
   #I've got the sum to show the pledges amount, now have to subtract and show just the amount over
