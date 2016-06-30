@@ -7,15 +7,24 @@
 # Make sure each ruby method returns a string containing a valid SQL statement.
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts
-"Write your SQL query Here"
+"SELECT title, SUM(pledges.amount) FROM projects
+  JOIN pledges ON projects.id = pledges.project_id
+  GROUP BY projects.title"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges
-"Write your SQL query Here"
+"SELECT name, age, SUM(pledges.amount) FROM users
+  JOIN pledges ON users.id = pledges.user_id
+  GROUP BY users.name"
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
+"SELECT title, SUM(pledges.amount) - funding_goal AS amount_over FROM projects
+  JOIN pledges ON projects.id = pledges.project_id
+  WHERE amount_over >= projects.funding_goal
+  GROUP BY title"
+  #has to do with the join, since it's mentioning each instance instead of the ones that have more than funding goal
+  #I've got the sum to show the pledges amount, now have to subtract and show just the amount over
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount
