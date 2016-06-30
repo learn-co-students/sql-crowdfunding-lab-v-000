@@ -21,20 +21,66 @@ end
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
 "SELECT title, SUM(pledges.amount) - funding_goal AS amount_over FROM projects
   JOIN pledges ON projects.id = pledges.project_id
-  WHERE amount_over >= projects.funding_goal
-  GROUP BY title"
+  GROUP BY title
+  HAVING amount_over >= 0"
   #has to do with the join, since it's mentioning each instance instead of the ones that have more than funding goal
   #I've got the sum to show the pledges amount, now have to subtract and show just the amount over
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount
-"Write your SQL query Here"
+"SELECT name, SUM(pledges.amount) AS amount FROM users
+  JOIN pledges ON pledges.user_id = users.id
+  GROUP BY name
+  ORDER BY amount"
+#selects user name, amounts of all pledges grouped by name, ordered by amount
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"Write your SQL query Here"
+"SELECT category, pledges.amount AS amount FROM projects
+  JOIN pledges ON projects.id = pledges.project_id
+  WHERE category = 'music' "
+#selects category, pledge amounts of all pledges in music category
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_book_category
-"Write your SQL query Here"
+"SELECT category, SUM(pledges.amount) AS amount FROM projects
+  JOIN pledges ON projects.id = pledges.project_id
+  WHERE category = 'books' "
+#SELECTS category, sum of all pledges, book category
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
