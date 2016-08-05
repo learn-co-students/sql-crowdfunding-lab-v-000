@@ -1,4 +1,5 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('Record Album', 'music', 2500.00, '8/16/2016', '10/07/2016'),
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+('Record Album', 'music', 2500.00, '8/16/2016', '10/07/2016'),
 ('Promote Album', 'music', 10000.00, '11/11/2016', '05/11/2017'),
 ('Buy new clothes', 'fashion', 300.00, '8/8/2016', '8/9/2016'),
 ('Purchase Tour Bus', 'transportation', 52500.00, '8/16/2016', '08/16/2017'),
