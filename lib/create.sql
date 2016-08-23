@@ -18,4 +18,4 @@ CREATE TABLE pledges(
   amount NUMERIC,
   project_id INTEGER
   user_id INTEGER
-)
+);
