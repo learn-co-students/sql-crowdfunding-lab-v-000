@@ -9,3 +9,25 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("The Librarians Have Escaped", "nightvale", 5000, "in the mists", "of time"),
 ("What Number Am I On Now Only Nine Shoot", "endless", 89999, "endless", "forever"),
 ("The Last Project", "thank-deity", 9000, "just now", "it's over");
+
+INSERT INTO users (name, age) VALUES
+("Trumpy", 70000),
+("Hillz", 900000),
+("Kanye", 2),
+("Albus Severus", 13),
+("Jslaw", 28),
+("Nickname", 89),
+("Carlos", 33),
+("Cecil", 35),
+("Faceless Old Woman", 40000),
+("Dana", 17),
+("Hiram McDaniels", 666),
+("Librarian", 15),
+("Secret Police", 29),
+("Hooded Figure", 66),
+("Dog Park Patron", 23),
+("Glow Cloud", 50000),
+("Khoshek", 7),
+("Old Woman Josie", 79),
+("Pamela", 46),
+("Erika", 370000);
