@@ -1,0 +1,65 @@
+--Users
+INSERT INTO users (name) VALUES ("Brett");
+INSERT INTO users (name) VALUES ("Rachel");
+INSERT INTO users (name) VALUES ("Tina");
+INSERT INTO users (name) VALUES ("Mark");
+INSERT INTO users (name) VALUES ("Noah");
+INSERT INTO users (name) VALUES ("Leana");
+INSERT INTO users (name) VALUES ("Bob");
+INSERT INTO users (name) VALUES ("Debi");
+INSERT INTO users (name) VALUES ("Brian");
+INSERT INTO users (name) VALUES ("Diane");
+INSERT INTO users (name) VALUES ("Bill");
+INSERT INTO users (name) VALUES ("Jack");
+INSERT INTO users (name) VALUES ("Joan");
+INSERT INTO users (name) VALUES ("Tim");
+INSERT INTO users (name) VALUES ("Josh");
+INSERT INTO users (name) VALUES ("Rebecca");
+INSERT INTO users (name) VALUES ("John");
+INSERT INTO users (name) VALUES ("Dan");
+INSERT INTO users (name) VALUES ("Jill");
+INSERT INTO users (name) VALUES ("Warre");
+
+--Projects
+INSERT INTO projects (title) VALUES ("Runway");
+INSERT INTO projects (title) VALUES ("Bikes");
+INSERT INTO projects (title) VALUES ("Schooling");
+INSERT INTO projects (title) VALUES ("Computers");
+INSERT INTO projects (title) VALUES ("Cars");
+INSERT INTO projects (title) VALUES ("House Remodal");
+INSERT INTO projects (title) VALUES ("Web Design");
+INSERT INTO projects (title) VALUES ("Kitchen");
+INSERT INTO projects (title) VALUES ("Dogs");
+INSERT INTO projects (title) VALUES ("Bedroom");
+
+--Pledges
+INSERT INTO pledges (amount) VALUES (10);
+INSERT INTO pledges (amount) VALUES (1);
+INSERT INTO pledges (amount) VALUES (15);
+INSERT INTO pledges (amount) VALUES (100);
+INSERT INTO pledges (amount) VALUES (25);
+INSERT INTO pledges (amount) VALUES (30);
+INSERT INTO pledges (amount) VALUES (45);
+INSERT INTO pledges (amount) VALUES (8);
+INSERT INTO pledges (amount) VALUES (19);
+INSERT INTO pledges (amount) VALUES (54);
+INSERT INTO pledges (amount) VALUES (82);
+INSERT INTO pledges (amount) VALUES (1000);
+INSERT INTO pledges (amount) VALUES (29);
+INSERT INTO pledges (amount) VALUES (313);
+INSERT INTO pledges (amount) VALUES (48);
+INSERT INTO pledges (amount) VALUES (30);
+INSERT INTO pledges (amount) VALUES (92);
+INSERT INTO pledges (amount) VALUES (76);
+INSERT INTO pledges (amount) VALUES (67);
+INSERT INTO pledges (amount) VALUES (52);
+INSERT INTO pledges (amount) VALUES (6);
+INSERT INTO pledges (amount) VALUES (18);
+INSERT INTO pledges (amount) VALUES (31);
+INSERT INTO pledges (amount) VALUES (764);
+INSERT INTO pledges (amount) VALUES (212);
+INSERT INTO pledges (amount) VALUES (4);
+INSERT INTO pledges (amount) VALUES (400);
+INSERT INTO pledges (amount) VALUES (200);
+INSERT INTO pledges (amount) VALUES (150);
+INSERT INTO pledges (amount) VALUES (231);
