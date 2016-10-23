@@ -1,4 +1,3 @@
-#projects
 CREATE TABLE projects(
   id INTEGER PRIMARY KEY,
   title TEXT,
@@ -8,14 +7,12 @@ CREATE TABLE projects(
   end_date TEXT
 );
 
-#users
 CREATE TABLE users(
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
 );
 
-#pledges
 CREATE TABLE pledges(
   id INTEGER PRIMARY KEY,
   amount INTEGER,
