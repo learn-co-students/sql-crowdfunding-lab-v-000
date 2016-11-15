@@ -6,26 +6,77 @@
 
 # Make sure each ruby method returns a string containing a valid SQL statement.
 
+
+# CREATE TABLE projects (
+#   id INTEGER PRIMARY KEY,
+#   title TEXT,
+#   category TEXT,
+#   funding_goal INTEGER,
+#   start_date DATE,
+#   end_date DATE
+# );
+
+# CREATE TABLE users (
+#   id INTEGER PRIMARY KEY,
+#   name TEXT,
+#   age INTEGER
+# );
+
+# CREATE TABLE pledges (
+#   id INTEGER PRIMARY KEY,
+#   amount REAL,
+#   user_id INTEGER,
+#   project_id INTEGER
+# );
+
+
 def selects_the_titles_of_all_projects_and_their_pledge_amounts
-"Write your SQL query Here"
+"SELECT projects.title, SUM(pledges.amount)
+ FROM projects
+ JOIN pledges
+ ON projects.id = pledges.project_id
+ GROUP BY projects.title;"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges
-"Write your SQL query Here"
+"SELECT name, age, SUM(pledges.amount)
+ FROM users
+ JOIN pledges
+ ON users.id = pledges.user_id
+ GROUP BY users.name;"
 end
 
-def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
-end
+ def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
+ "SELECT projects.title, SUM(pledges.amount) - projects.funding_goal
+  AS amount_left 
+  FROM projects
+  JOIN pledges
+  ON projects.id = pledges.project_id
+  GROUP BY projects.title
+  HAVING amount_left >= 0;"
+ end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount
-"Write your SQL query Here"
+"SELECT users.name, SUM(pledges.amount)
+ AS amount_donated
+ FROM users
+ JOIN pledges
+ ON users.id = pledges.user_id
+ GROUP BY users.name ORDER BY amount_donated;"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"Write your SQL query Here"
+"SELECT projects.category, pledges.amount
+ FROM projects
+ JOIN pledges
+ ON projects.id = pledges.project_id
+ WHERE projects.category = 'music';"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_book_category
-"Write your SQL query Here"
+"SELECT projects.category, SUM(pledges.amount)
+ FROM projects
+ JOIN pledges
+ ON projects.id = pledges.project_id
+ WHERE projects.category = 'books';"
 end
