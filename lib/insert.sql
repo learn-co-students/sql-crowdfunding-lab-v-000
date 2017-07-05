@@ -81,6 +81,4 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
                         INSERT INTO pledges (amount, user_id, project_id) values (1100, 1, 5);
                          INSERT INTO pledges (amount, user_id, project_id) values (1100, 1, 5);
                           INSERT INTO pledges (amount, user_id, project_id) values (1100, 1, 5);
-                           INSERT INTO pledges (amount, user_id, project_id) values (1100, 1, 5);
-                            INSERT INTO pledges (amount, user_id, project_id) values (1100, 1, 5);
-                            
+                          

@@ -1,5 +1,3 @@
-
-
 CREATE TABLE projects (
 id INTEGER PRIMARY KEY,
 title TEXT,
@@ -20,5 +18,4 @@ id INTEGER PRIMARY KEY,
 amount INTEGER,
 user_id INTEGER ,
 project_id INTEGER
-
 );
