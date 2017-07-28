@@ -1,0 +1,65 @@
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project1', 'tech', 1000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project2', 'tech', 2000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project3', 'tech', 3000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project4', 'tech', 4000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project5', 'tech', 5000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project6', 'sports', 6000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project7', 'home', 7000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project8', 'home', 8000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project9', 'tech', 1000, '03/06/2017', '23/06/2017');
+INSERT INTO projects(title, category, funding_goal, start_date, end_date)VALUES('project10', 'tech', 1000, '03/06/2017', '23/06/2017');
+
+
+
+
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+INSERT INTO users(name, age) VALUES ('derek', 32);
+
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
+INSERT INTO pledges(amount) VALUES (25);
