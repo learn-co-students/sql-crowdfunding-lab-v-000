@@ -1,32 +1,32 @@
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Amabrush", "product design", 700000, 070117, 080117);
+  VALUES ("Amabrush", "product design", 700000, "070117", "080117");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Passion Planner", "product design", 200000, 072017, 090117);
+  VALUES ("Passion Planner", "product design", 200000, "072017", "090117");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Sound Blocker", "gadgets", 20000, 073017, 093017);
+  VALUES ("Sound Blocker", "gadgets", 20000, "073017", "093017");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Ticwatch", "wearables", 200000, 050217, 062917);
+  VALUES ("Ticwatch", "wearables", 200000, "050217", "062917");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("The Family Tree", "books", 10000, 042017, 052717);
+  VALUES ("The Family Tree", "books", 10000, "042017", "052717");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Ocean Beats", "music", 50000, 021417, 042017);
+  VALUES ("Ocean Beats", "music", 50000, "021417", "042017");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Sous Vide", "technology", 250000, 080117, 122017);
+  VALUES ("Sous Vide", "technology", 250000, "080117", "122017");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Re:Legend", "video games", 100000, 062417, 083017);
+  VALUES ("Re:Legend", "video games", 100000, "062417", "083017");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Drawing Blood", "books", 70000, 072817, 102317);
+  VALUES ("Drawing Blood", "books", 70000, "072817", "102317");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-  VALUES ("Toilet Night Light", "gadgets", 5000, 052717, 073017);
+  VALUES ("Toilet Night Light", "gadgets", 5000, "052717", "073017");
 
 INSERT INTO users (name, age)
   VALUES ("Anja Rubik", 31);
