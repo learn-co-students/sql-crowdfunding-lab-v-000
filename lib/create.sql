@@ -20,7 +20,3 @@ CREATE TABLE pledges (
   user_id INTEGER
 );
 
-CREATE TABLE projects_pledges (
-  project_id INTEGER
-
-);
