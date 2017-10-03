@@ -1,0 +1,10 @@
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Donation", "Personal", "Scottish Fold", 1000000);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Hana", "Help", "Tabby", 21800);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Travel", "Leisure", "Persian", 181600);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Laptop", "Electronics", "Tortoiseshell", 2000000);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Water", "New_tech", "Scottish Fold", 1000000);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("House", "New_tech", "Tabby", 21800);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Farm", "New_tech", "Persian", 181600);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Hoverboard", "Electronics", "Tortoiseshell", 2000000);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("Plane", "Personal", "Persian", 181600);
+INSERT INTO projects (title, category, funding_goal, start_date) VALUES ("New", "Scientific", "Tortoiseshell", 2000000);
