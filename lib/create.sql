@@ -1,11 +1,12 @@
 CREATE TABLE projects (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
   funding_goal INTEGER,
-  start_date INTEGER
+  start_date TEXT,
+  end_date TEXT
 );
 
-CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER);
+CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER);
 
-CREATE TABLE pledges (id INTEGER PRIMARY KEY AUTOINCREMENT, amount INTEGER, user_id INTEGER, project_id);
+CREATE TABLE pledges (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id);
