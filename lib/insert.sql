@@ -1,0 +1,45 @@
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+("Bakery", "offline", 20000, "10/01/2017", "12/31/2017"),
+("Liquor Store", "offline", 100000, "9/01/2017", "12/01/2017"),
+("Casino", "online", 24000, "10/10/2017", "11/31/2017"),
+("Cafe", "offline", 36000, "11/01/2017", "12/31/2017"),
+("Dating Website", "online", 9000, "9/01/2017", "11/31/2017"),
+("Spinner Manufacturing", "offline", 45000, "10/15/2017", "12/15/2017"),
+("Shoes Store", "online", 39000, "10/01/2017", "12/05/2017"),
+("Gadget Store", "online", 19000, "10/31/2017", "12/31/2017"),
+("Jewelry Store", "online", 120000, "08/01/2017", "12/01/2017"),
+("Charging Station", "offline", 200000, "10/21/2017", "4/31/2018");
+
+INSERT INTO users (name, age) VALUES
+("Denis", 37),
+("Tanya", 35),
+("Aya", 7),
+("Bill Gates", 57),
+("Donald Trump", 69),
+("Sanek", 36),
+("Pashok", 37),
+("Mishka", 35),
+("Ju", 37),
+("Mr Robot", 27),
+("Tom", 3),
+("Jerry", 5),
+("Winnie", 1),
+("Robin Hood", 38),
+("Michael Jackson", 59),
+("Avi", 30),
+("Yan", 40),
+("Leemor", 30),
+("Robert", 47),
+("Misha", 47);
+
+INSERT INTO pledges (amount, user_id, project_id) VALUES
+(1000, 1, 2), (2000, 2, 4), (3000, 3, 5),
+(500, 5, 20), (4000, 1, 18), (2000, 3, 6),
+(700, 8, 3), (1000, 4, 16), (1000, 5, 7),
+(10000, 8, 5), (11000, 5, 15), (9000, 10, 8),
+(9000, 3, 5), (1000, 3, 11), (3000, 8, 12),
+(1000, 2, 7), (1300, 4, 3), (100, 10, 12),
+(2000, 9, 7), (1000, 5, 1), (1000, 1, 19),
+(10000, 10, 8), (1000, 4, 1), (3000, 1, 13),
+(13000, 7, 12), (1000, 3, 2), (4000, 5, 14),
+(200, 4, 13), (400, 2, 20), (600, 6, 19);
