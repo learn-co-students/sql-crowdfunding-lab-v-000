@@ -1,6 +1,6 @@
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Send Food to Puerto Rico", "charity", 20000, "Sept 20, 2017", "Nov 11, 2017");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Shoe Store", "business", 10000, "July 16, 2016", "July 16, 2017");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Start Local Tennis Rec League" "sport" 5000, "August 1, 2017", "August 20, 2017");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Start Local Tennis Rec League" "sport", 5000, "August 1, 2017", "August 20, 2017");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Bakery", "business", 20000, "January 1, 2017", "January 1, 2018");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Soccer After School Program", "sport", 1000, "June 1, 2017", "August 1, 2017");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Great Dane Animal Shelter", "charity", 15000, "March 1, 2017", "April 1, 2017");
