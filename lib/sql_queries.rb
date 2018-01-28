@@ -7,25 +7,56 @@
 # Make sure each ruby method returns a string containing a valid SQL statement.
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
-"Write your SQL query Here"
+" SELECT Projects.title, SUM(Pledges.amount)
+  FROM Projects
+  LEFT JOIN Pledges
+  ON Projects.id = Pledges.project_id
+  GROUP BY Projects.title
+  ORDER BY title;"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
-"Write your SQL query Here"
+" SELECT Users.name, Users.age, SUM(Pledges.amount)
+  FROM Users
+  INNER JOIN Pledges
+  ON Users.id = Pledges.user_id
+  GROUP BY Users.id
+  ORDER BY Users.name;"
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
+" SELECT project_title, total_pledges - funding_goal AS amount_over_goal
+  FROM
+    (SELECT
+      Projects.title AS project_title,
+      Projects.funding_goal AS funding_goal,
+      SUM(Pledges.amount) AS total_pledges
+    FROM Projects INNER JOIN Pledges
+      ON Projects.id = Pledges.project_id
+    GROUP BY Projects.title)
+  WHERE total_pledges - funding_goal >= 0
+  GROUP BY project_title;"
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"Write your SQL query Here"
+" SELECT Users.name, SUM(Pledges.amount)
+  FROM Users LEFT JOIN Pledges
+    ON Users.id = Pledges.user_id
+  GROUP BY Users.name
+  ORDER BY SUM(Pledges.amount), Users.name;"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"Write your SQL query Here"
+" SELECT Projects.category, Pledges.amount
+  FROM Projects INNER JOIN Pledges
+    ON Projects.id = Pledges.project_id
+  WHERE Projects.category = 'music';"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
-"Write your SQL query Here"
+" SELECT Projects.category, SUM(Pledges.amount) AS total_pledges
+  FROM Projects LEFT JOIN Pledges
+    ON Projects.id = Pledges.project_id
+  WHERE Projects.category = 'books'
+  GROUP BY Projects.category;"
 end
