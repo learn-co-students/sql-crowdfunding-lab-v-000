@@ -22,11 +22,6 @@ class RandomEntryGenerator
     PROJECT_LATEST_START_DATE = Time.new(2018, 2, 15)
     PROJECT_EARLIEST_END_DATE = Time.new(2018, 3, 1)
     PROJECT_LATEST_END_DATE = Time.new(2018, 4, 1)
-    
-
-    def self.test
-        puts "Hello! I am the RandomEntryGenerator class!"
-    end
 
     def self.users(quantity)
         @@users = quantity.times.collect.with_index(1) do |value, index|
