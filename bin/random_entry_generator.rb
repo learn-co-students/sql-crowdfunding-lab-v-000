@@ -6,28 +6,23 @@ USER_QUANTITY = 20
 PROJECT_QUANTITY = 10
 PLEDGE_QUANTITY = 30
 
-RandomEntryGenerator.users(USER_QUANTITY)
-RandomEntryGenerator.projects(PROJECT_QUANTITY)
-RandomEntryGenerator.pledges(PLEDGE_QUANTITY, USER_QUANTITY, PROJECT_QUANTITY)
+file = File.new('lib/insert.sql', 'w')
 
-=begin
-target_file = File.new('../lib/insert.sql', 'w')
-
-target_file.write(SQLComposer.compose(
-    SQLComposer::INSERT, 
-    RandomEntryGenerator.users(20), 
+file.write(SQLComposer.insert(
+    RandomEntryGenerator.users(USER_QUANTITY), 
     'users'
-)
-target_file.write(SQLComposer.compose(
-    SQLComposer::INSERT, 
-    RandomEntryGenerator.projecs(10), 
+))
+file.write(SQLComposer.insert(
+    RandomEntryGenerator.projects(PROJECT_QUANTITY),
     'projects'
-)
-target_file.write(SQLComposer.compose(
-    SQLComposer::INSERT, 
-    RandomEntryGenerator.pledges(30), 
+))
+file.write(SQLComposer.insert(
+    RandomEntryGenerator.pledges(
+        PLEDGE_QUANTITY, 
+        USER_QUANTITY, 
+        PROJECT_QUANTITY
+    ),
     'pledges'
-)
+))
 
-target_file.close
-=end
+file.close
