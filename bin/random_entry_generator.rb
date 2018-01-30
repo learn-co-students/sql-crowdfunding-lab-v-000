@@ -2,9 +2,13 @@
 
 require_relative 'environment'
 
-RandomEntryGenerator.users(20)
-RandomEntryGenerator.projects(10)
-RandomEntryGenerator.pledges(30)
+USER_QUANTITY = 20
+PROJECT_QUANTITY = 10
+PLEDGE_QUANTITY = 30
+
+RandomEntryGenerator.users(USER_QUANTITY)
+RandomEntryGenerator.projects(PROJECT_QUANTITY)
+RandomEntryGenerator.pledges(PLEDGE_QUANTITY, USER_QUANTITY, PROJECT_QUANTITY)
 
 =begin
 target_file = File.new('../lib/insert.sql', 'w')
