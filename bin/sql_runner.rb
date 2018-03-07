@@ -1,4 +1,5 @@
 require_relative 'environment'
+require 'pry'
 
 class SQLRunner
   def initialize(db)
@@ -15,8 +16,9 @@ class SQLRunner
     @db.execute_batch(sql)
   end
 
-  def execute_data
-    sql = File.read('lib/data.sql')
+	def execute_data
+		sql = File.read('lib/data.sql')
+		puts "Reading the data.sql file."
     @db.execute_batch(sql)
   end
 end
