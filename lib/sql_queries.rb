@@ -31,11 +31,15 @@ def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_th
 FROM users
 INNER JOIN pledges
 ON users.id = pledges.user_id
-ORDER BY users.name"
+ORDER BY users.name" #why is it just giving me one entry with the total sum of the pledge amounts?
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"Write your SQL query Here"
+"SELECT projects.category, pledges.amount
+FROM projects
+INNER JOIN pledges
+ON projects.id = pledges.project_id
+"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
