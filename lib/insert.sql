@@ -1,0 +1,10 @@
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project1", "category1", 1, "start_date1", "end_date1");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project2", "category2", 2, "start_date2", "end_date2");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project3", "category3", 3, "start_date3", "end_date3");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project4", "category4", 4, "start_date4", "end_date4");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project5", "category5", 5, "start_date5", "end_date5");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project6", "category6", 6, "start_date6", "end_date6");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project7", "category7", 7, "start_date7", "end_date7");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project8", "category8", 8, "start_date8", "end_date8");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project9", "category9", 9, "start_date9", "end_date9");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("project10", "category10", 10, "start_date10", "end_date10");
