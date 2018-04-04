@@ -7,25 +7,25 @@
 # Make sure each ruby method returns a string containing a valid SQL statement.
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
-"Write your SQL query Here"
+"SELECT title, amount from projects INNER JOIN pledges on projects.id = pledges.project_id order by title asc"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
-"Write your SQL query Here"
+"SELECT name, age, amount from users INNER JOIN pledges on pledges.id = users.id order by name asc;"
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
+"SELECT title, sum(funding_goal - amount) from projects INNER JOIN pledges on pledges.id = projects.id'"
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"Write your SQL query Here"
+"SELECT name, sum(amount) from user INNER JOIN pledges on users.id = pledges.id order by sum(amount), name;"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"Write your SQL query Here"
+"SELECT category, name, from projects, users, pledges where category = 'music';"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
-"Write your SQL query Here"
+"select category, name, count(pledges) from ;"
 end
