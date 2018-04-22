@@ -17,8 +17,16 @@ INNER JOIN users
       ORDER BY name;"
 end
 
+
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-  "SELECT projects.title, (SUM(pledges.amount) - projects.funding_goal) AS amount_left FROM projects JOIN pledges ON projects.id = pledges.project_id GROUP BY projects.title HAVING amount_left >= 0;"
+"SELECT projects.title, (SUM(pledges.amount)-projects.funding_goal) AS num
+FROM pledges
+INNER JOIN projects
+  ON pledges.project_id = projects.id
+    WHERE projects.funding_goal <= SUM(pledges.amount)
+    GROUP BY projects.title
+    HAVING num >= 0;"
+      #88 difference?? 200 is funding_goal 342 total pledges
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
