@@ -1,5 +1,6 @@
 require "spec_helper"
 require 'pry'
+require_relative './../lib/printers'
 
 describe "crowdfunder sql" do
   before do
