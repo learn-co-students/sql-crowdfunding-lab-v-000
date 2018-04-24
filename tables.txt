@@ -1,5 +1,4 @@
-select * from projects;
-
+projects
 id          title                 category    funding_goal  start_date  end_date
 ----------  --------------------  ----------  ------------  ----------  ----------
 1           Help me buy a guitar  music       500           2013-06-30  2013-07-30
@@ -13,8 +12,7 @@ id          title                 category    funding_goal  start_date  end_date
 9           I want to teach Engl  charity     3000          2013-06-30  2013-09-30
 10          Help save birds of p  charity     5000          2012-03-20  2013-06-30
 
-select * from users;
-
+users
 id          name        age
 ----------  ----------  ----------
 1           Finnebar    17
@@ -38,7 +36,7 @@ id          name        age
 19          Ena         24
 20          Katie       24
 
-select * from pledges;
+pledges
 id          amount      user_id     project_id
 ----------  ----------  ----------  ----------
 1           10          1           2
