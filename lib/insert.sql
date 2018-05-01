@@ -19,16 +19,7 @@ INSERT INTO users (id, name, age) VALUES (18, "Maddy", 36);
 INSERT INTO users (id, name, age) VALUES (19, "Theo", 57);
 INSERT INTO users (id, name, age) VALUES (20, "Will", 17);
 
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, "A", "Tech", 1000000, 2017-10-12, 2018-04-04);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (2, "B", "Education", 2000000, 2016-11-29, 2017-01-07);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (3, "C", "Education", 500000, 2018-02-02, 2018-04-07);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (4, "D", "Energy", 15000000, 2015-01-19, 2017-02-02);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (5, "E", "Tech", 200000, 2016-06-18, 2017-05-27);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (6, "F", "Development", 14000000, 2014-10-13, 2015-11-17);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (7, "G", "Energy", 700000, 2012-01-14, 2015-11-17);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (8, "H", "Development", 5000000, 2017-12-19, 2019-03-07);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (9, "I", "Education", 1200000, 2014-08-16, 2017-07-01);
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (10, "J", "Tech", 10000, 2012-10-19, 2013-09-16);
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, "A", "Tech", 1000000, 2017-10-12, 2018-04-04), (2, "B", "Education", 2000000, 2016-11-29, 2017-01-07), (3, "C", "Education", 500000, 2018-02-02, 2018-04-07), (4, "D", "Energy", 15000000, 2015-01-19, 2017-02-02), (5, "E", "Tech", 200000, 2016-06-18, 2017-05-27), (6, "F", "Development", 14000000, 2014-10-13, 2015-11-17), (7, "G", "Energy", 700000, 2012-01-14, 2015-11-17), (8, "H", "Development", 5000000, 2017-12-19, 2019-03-07), (9, "I", "Education", 1200000, 2014-08-16, 2017-07-01), (10, "J", "Tech", 10000, 2012-10-19, 2013-09-16);
 
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES (1, 20, 12, 2)
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES (2, 200, 1, 8)
