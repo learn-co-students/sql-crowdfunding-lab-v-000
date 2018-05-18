@@ -1,0 +1,22 @@
+CREATE TABLE projects (
+id INTEGER PRIMARY KEY,
+title TEXT,
+category TEXT,
+start_date TEXT,
+end_date TEXT,
+funding_goal TEXT
+);
+
+CREATE TABLE users (
+id INTEGER PRIMARY KEY,
+name TEXT,
+age INTEGER
+);
+
+
+CREATE TABLE pledges (
+id INTEGER PRIMARY KEY,
+amount INTEGER,
+user_id TEXT,
+project_id TEXT
+);
