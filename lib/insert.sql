@@ -1,0 +1,46 @@
+INSERT INTO users (name, age) VALUES ("John", 34), ("Anna", 23), ("Amy", 18), ("Samantha", 50), ("Nicholas", 33), ("Becky", 22), ("Jordan", 21), ("Matt", 25), ("Cody", 27), ("Sean", 27), ("Denise", 60), ("Justin", 32), ("Colin", 44), ("Alexander", 21), ("Stephen", 34), ("Roman", 27), ("Stacy", 28), ("Kristin", 30), ("Valerie", 20), ("James", 34);
+
+
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES
+("Youth Football", "sports", 2000, "2018-06-01", "2018-07-31"),
+("House Building", "construction", 4000, "2018-07-01", "2019-07-31"),
+("Charity Basketball", "sports", 350, "2018-06-01", "2018-07-31"),
+("Fence Painting", "construction", 470, "2018-07-01", "2019-07-31"),
+("Senior Baseball", "sports", 550, "2018-06-01", "2018-08-31"),
+("Daycare", "humanitarian", 2000, "2018-07-01", "2018-07-31"),
+("Roofing", "construction", 1100, "2018-06-01", "2019-07-31"),
+("Retirement Center", "humanitarian", 3000, "2018-08-01", "2019-08-31"),
+("Homeless Shelter", "humanitarian", 840, "2018-06-01", "2018-08-31"),
+("Soup Kitchen", "humanitarian", 510, "2018-07-01", "2018-09-31");
+
+INSERT INTO pledges(amount, user_id, project_id) VALUES
+(10.00, 1, 3),
+(21.00, 2, 2),
+(30.00, 3, 6),
+(200.00, 4, 4),
+(45.00, 7, 5),
+(37.00, 12, 8),
+(20.50, 5, 7),
+(5.50, 10, 1),
+(100.00, 7, 10),
+(21.00, 19, 9),
+(34.00, 6, 1),
+(79.00, 7, 10),
+(210.00, 8, 1),
+(100.00, 7, 3),
+(110.00, 15, 4),
+(78.00, 14, 7),
+(41.00, 13, 9),
+(103.00, 19, 2),
+(100.00, 12, 1),
+(32.00, 22, 8),
+(10.00, 20, 6),
+(98.70, 20, 8),
+(150.00, 10, 5),
+(78.00, 19, 6),
+(60.00, 9, 9),
+(180.00, 17, 9),
+(200.00, 16, 7),
+(15.00, 18, 5),
+(20.00, 9, 6),
+(130.00, 17, 3);
