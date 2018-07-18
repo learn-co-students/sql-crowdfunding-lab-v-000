@@ -1,0 +1,33 @@
+INSERT INTO projects (title, category, funding_goal, start_date, end_date)
+VALUES ("crazy project 1", "games", 100000, "1/1/18","6/15/18"),
+ ("crazy project 2", "sports", 1000000, "1/6/18","6/15/18"),
+ ("crazy project 3", "clothes", 200000, "9/1/18","12/15/18"),
+ ("crazy project 4", "electronics", 10000000, "1/8/18","9/15/18"),
+ ("crazy project 5", "pillows", 10000, "5/9/18","6/15/18"),
+ ("crazy project 6", "food", 30000, "8/7/18","12/15/18"),
+ ("crazy project 7", "games", 1000000, "9/18/18","11/30/18"),
+ ("crazy project 8", "finance", 350000, "2/15/18","6/15/18"),
+ ("crazy project 9", "movies", 1200000, "11/19/18","4/15/19"),
+ ("crazy project 10", "shoes", 980000, "1/1/18","6/15/18");
+
+INSERT INTO users (name, age) VALUES
+("Mike", 20),
+("Kayla", 32),
+("Ricardo", 40),
+("Nikki", 19),
+("Edith", 53),
+("Dave", 48),
+("Alex", 25),
+("Ian", 26),
+("Julianna", 20),
+("CJ", 22),
+("Gabriella", 23),
+("Dustin", 27),
+("Vicki", 51),
+("Michael", 65),
+("Judy", 74),
+("Lee", 34),
+("Layla", 32),
+("Paula", 54),
+("Didi", 28),
+("George", 80);
