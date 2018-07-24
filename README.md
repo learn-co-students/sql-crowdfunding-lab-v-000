@@ -11,6 +11,28 @@ In the `create.sql` file, model your tables. You should have a table for project
 - A user has a name and an age
 - A pledge has an amount. It belongs to a user, and it also belongs to a project.
 
+CREATE TABLE projects(
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  category TEXT,
+  goal INTEGER,
+  start_date INTEGER,
+  end_date INTEGER
+  );
+
+CREATE TABLE users(
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  age INTEGER
+  );
+
+CREATE TABLE pledges(
+  id INTEGER PRIMARY KEY,
+  amount INTEGER,
+  user_id INTEGER,
+  project_id INTEGER
+  );
+
 ## Insert Records into Database
 Within the `insert.sql` file, insert 10 projects, 20 users, and 30 pledges into the database.
 
