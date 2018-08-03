@@ -23,10 +23,10 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date)
 VALUES ("Boozup", "Food", 2200, "JUL 3", "SEPT 30");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-VALUES ("ButterMe", "Food", 680, AUG 1, AUG 25);
+VALUES ("ButterMe", "Food", 680, "AUG 1", "AUG 25");
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-VALUES ("Toonie", "Financial", 800, NOV, DEC 30);
+VALUES ("Toonie", "Financial", 800, "NOV 1", "DEC 30");
 
 INSERT INTO users (name) VALUES ("Jim");
 INSERT INTO users (name) VALUES ("Todd");
