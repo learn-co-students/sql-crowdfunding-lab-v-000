@@ -20,12 +20,12 @@ CREATE TABLE pledges (
   project_id INTEGER
 );
 
-CREATE TABLE user_pledges (
-  users_id INTEGER,
-  pledges_id INTEGER
-);
-
-CREATE TABLE project_pledges (
-  projects_id INTEGER,
-  pledges_id INTEGER
-);
+-- CREATE TABLE user_pledges (
+--   users_id INTEGER,
+--   pledges_id INTEGER
+-- );
+--
+-- CREATE TABLE project_pledges (
+--   projects_id INTEGER,
+--   pledges_id INTEGER
+-- );
