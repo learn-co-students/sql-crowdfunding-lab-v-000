@@ -117,5 +117,7 @@ describe "crowdfunder sql" do
     it '#selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category' do
       expect(@db.execute(selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category)).to eq([["books", 140]])
     end
+
+
   end
 end
