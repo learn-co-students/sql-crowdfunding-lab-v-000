@@ -6,4 +6,25 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('TicTacDo', 'Games', 1000, 120518, 060119);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('Electual Bike', 'Vehicle', 75000, 111118, 111119);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('Flutter', 'Social Network', 150000, 111218, 010120);
-
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('DotsToo', 'Games', 25000, 110818, 080119);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('Skylyft', 'Transportation', 15000000, 120118, 010121);
+INSERT INTO users (name, age) VALUES ('Richard', 43);
+INSERT INTO users (name, age) VALUES ('Azhar', 49);
+INSERT INTO users (name, age) VALUES ('Kyra', 46);
+INSERT INTO users (name, age) VALUES ('Bob', 50);
+INSERT INTO users (name, age) VALUES ('Tom', 58);
+INSERT INTO users (name, age) VALUES ('Michael', 40);
+INSERT INTO users (name, age) VALUES ('Tina', 36);
+INSERT INTO users (name, age) VALUES ('Julian', 21);
+INSERT INTO users (name, age) VALUES ('Arif', 83);
+INSERT INTO users (name, age) VALUES ('Andrew', 41);
+INSERT INTO users (name, age) VALUES ('Zain', 46);
+INSERT INTO users (name, age) VALUES ('Robert', 56);
+INSERT INTO users (name, age) VALUES ('Rifat', 77);
+INSERT INTO users (name, age) VALUES ('Ben', 44);
+INSERT INTO users (name, age) VALUES ('Roz', 38);
+INSERT INTO users (name, age) VALUES ('William', 50);
+INSERT INTO users (name, age) VALUES ('Chrissy', 47);
+INSERT INTO users (name, age) VALUES ('Claire', 24);
+INSERT INTO users (name, age) VALUES ('Samantha', 33);
+INSERT INTO users (name, age) VALUES ('Dennis', 18);
