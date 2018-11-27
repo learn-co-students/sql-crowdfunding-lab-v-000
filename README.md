@@ -17,7 +17,7 @@ Within the `insert.sql` file, insert 10 projects, 20 users, and 30 pledges into 
 ## Queries
 Write the following queries in SQL. You'll use different kinds of SQL joins to arrive at the answers for most. Write your queries in the `lib/sql_queries` file like the example below:
 ```ruby
-def select_category_from_projects
+def select_category_from_projects 
   "SELECT category FROM projects;"
 end
 ```
