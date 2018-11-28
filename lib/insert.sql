@@ -18,8 +18,7 @@ INSERT INTO users (name, age) VALUES
 ("Emma Watson", 28),
 ("Clint Eastwood", 88),
 ("Cathy Guisewite", 68),
-("Mother Teresa", 108)
-;
+("Mother Teresa", 108);
 
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
 ("ZitBGone", "Cosmetics", 500431.50, "01/01/17", "05/05/20"),
@@ -31,5 +30,36 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Books4Kids", "Literacy Program", 210000.21, "04/05/70", "05/04/73"),
 ("PATH (People Assisting The Homeless", "Homeless Outreach Program", 4500000.00, "03/15/10", "12/31/20"),
 ("Wacky Wally's Wand Wepair", "Repair Shop", 12345.67, "09/19/94", "03/20/95"),
-("World Trade Center Museum", "Memorial Museum", 400000.40, "09/11/01", "05/02/11")
-;
+("World Trade Center Museum", "Memorial Museum", 400000.40, "09/11/01", "05/02/11");
+
+INSERT INTO pledges (amount, user_id, project_id) VALUES
+(500.50, 3, 1),
+(4500.85, 6, 1),
+(75000.75, 16, 1),
+(102000.10, 17, 1),
+(35000.50, 1, 2),
+(15934.91, 3, 2),
+(1000000.00, 24, 3),
+(250000.25, 9, 3),
+(50000.00, 14, 3),
+(1000.45, 7, 4),
+(15000.00, 8, 4),
+(20000.20, 19, 4),
+(50000.00, 5, 5),
+(200000.75, 7, 5),
+(1000000.25, 11, 5),
+(505666.44, 12, 5),
+(600000.60, 13, 5),
+(12000.00, 1, 6),
+(77777.77, 10, 6),
+(24000.00, 15, 6),
+(48000.00, 20, 6),
+(50000.50, 11, 7),
+(75000.00, 15, 7),
+(100000.00, 16, 7),
+(4000000.00, 18, 8),
+(10000, 1, 9),
+(555.55, 3, 9),
+(2000.20, 16, 9),
+(200000.60, 2, 10),
+(200000.40, 7, 10);
