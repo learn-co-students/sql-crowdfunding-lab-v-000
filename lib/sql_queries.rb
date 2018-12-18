@@ -33,15 +33,15 @@ ORDER BY SUM(pledges.amount) ASC"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
-"
-SELECT pledges.amount, projects.category FROM projects
+"SELECT pledges.amount, projects.category FROM projects
 JOIN pledges ON pledges.user_id = projects.id
-GROUP BY pledges.amount HAVING projects.category = 'music'
-ORDER BY projects.category
-"
+GROUP BY projects.category = 'music'
+ORDER BY projects.category"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
 "SELECT projects.category, SUM(pledges.amount) FROM pledges
-JOIN projects ON projects.id = pledges.project_id"
+JOIN projects ON projects.id = pledges.project_id
+GROUP BY projects.category = 'books'
+ORDER BY projects.category ASC LIMIT 1"
 end
