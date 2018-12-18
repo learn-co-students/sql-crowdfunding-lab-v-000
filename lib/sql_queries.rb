@@ -35,12 +35,12 @@ end
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
 "SELECT projects.category, pledges.amount FROM pledges
 JOIN projects ON projects.id = pledges.project_id
-ORDER BY projects.category = 'music' DESC LIMIT 8"
+WHERE projects.category = 'music'"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
 "SELECT projects.category, SUM(pledges.amount) FROM pledges
 JOIN projects ON projects.id = pledges.project_id
-GROUP BY projects.category = 'books'
-ORDER BY projects.category ASC LIMIT 1"
+WHERE projects.category = 'books'
+GROUP BY projects.category"
 end
