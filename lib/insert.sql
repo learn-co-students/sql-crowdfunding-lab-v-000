@@ -21,26 +21,26 @@ INSERT INTO users VALUES (19, "Remus", 42);
 INSERT INTO users VALUES (20, "Hedwig", 4);
 
   
-INSERT INTO projects VALUES (1, "Save the Hippos", "Animals", 100, 01012019, 06012019);
-INSERT INTO projects VALUES (2, "Help Me Read", "Education", 200, 01012019, 12312019);
-INSERT INTO projects VALUES (3, "Save the Rainforest", "Animals", 1000, 03012019, 06012019);
-INSERT INTO projects VALUES (4, "Teach America", "Education", 3500, 02012019, 02012020);
-INSERT INTO projects VALUES (5, "Harry Needs A Broom", "Transportation", 2000, 01012019, 03012019);
-INSERT INTO projects VALUES (6, "Find Dudley's Parents", "Children", 4000, 08012019, 12012019);
-INSERT INTO projects VALUES (7, "A New Wing for Hedwig", "Animals", 3300, 01012019, 10012019);
-INSERT INTO projects VALUES (8, "Fix the Weasley's Car", "Transportation", 10000, 02012019, 10012019);
-INSERT INTO projects VALUES (9, "A Hogwart's Christmas", "Education", 1000000, 01012019, 10012019);
-INSERT INTO projects VALUES (10, "Teach Guitar to Toddlers Overseas", "Education", 400000, 01012019, 06012019);
+INSERT INTO projects VALUES (1, "Save the Hippos", "Animals", 10000, "01-01-2019", "06-01-2019");
+INSERT INTO projects VALUES (2, "Help Me Read", "Education", 2000, "01-01-2019", "12-31-2019");
+INSERT INTO projects VALUES (3, "Save the Rainforest", "Animals", 10500, "03-01-2019", "06-01-2019");
+INSERT INTO projects VALUES (4, "Teach America", "Education", 3500, "02-01-2019", "02-01-2020");
+INSERT INTO projects VALUES (5, "Harry Needs A Broom", "Transportation", 2000, "01-01-2019", "03-01-2019");
+INSERT INTO projects VALUES (6, "Find Dudley's Parents", "Children", 4000, "08-01-2019", "12-01-2019");
+INSERT INTO projects VALUES (7, "A New Wing for Hedwig", "Animals", 3300, "01-01-2019", "10-01-2019");
+INSERT INTO projects VALUES (8, "Fix the Weasley's Car", "Transportation", 10000, "02-01-2019", "10-01-2019");
+INSERT INTO projects VALUES (9, "A Hogwart's Christmas", "Education", 1000000, "01-01-2019", "10-01-2019");
+INSERT INTO projects VALUES (10, "Teach Guitar to Toddlers Overseas", "Education", 400000, "01-01-2019", "06-01-2019");
 
 
 /*insert 30 pledges*/
-INSERT INTO pledges VALUES (1)
-INSERT INTO pledges VALUES (2)
-INSERT INTO pledges VALUES (3)
-INSERT INTO pledges VALUES (4)
-INSERT INTO pledges VALUES (5)
-INSERT INTO pledges VALUES (6)
-INSERT INTO pledges VALUES (7)
+INSERT INTO pledges VALUES (1, 5.00, 5, 10);
+INSERT INTO pledges VALUES (2, 100.00, 1, 3);
+INSERT INTO pledges VALUES (3, 20.00, 19, 9);
+INSERT INTO pledges VALUES (4, 120.00, 11, 4)
+INSERT INTO pledges VALUES (5, 80.00, 2, 1);
+INSERT INTO pledges VALUES (6, 75.00, 6, 8);
+INSERT INTO pledges VALUES (7, 65.00, 3, 9);
 INSERT INTO pledges VALUES (8)
 INSERT INTO pledges VALUES (9)
 INSERT INTO pledges VALUES (10)
