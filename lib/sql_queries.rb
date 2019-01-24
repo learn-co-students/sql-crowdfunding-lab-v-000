@@ -23,8 +23,14 @@ ORDER BY name";
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
+"SELECT projects.title, pledges.amount FROM projects
+INNER JOIN pledges
+ON projects.funding_goal = pledges.amount
+WHERE projects.funding_goal <= pledges.amount
+GROUP BY projects.title";
 end
+# - which projects met their goal?
+# - of those projects, how much did they go over?
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
 "Write your SQL query Here"
