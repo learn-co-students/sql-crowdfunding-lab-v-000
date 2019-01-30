@@ -22,11 +22,14 @@ ORDER BY users.name ASC"
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
-"Write your SQL query Here"
+  "SELECT projects.title, SUM(pledges.amount) - projects.funding_goal FROM projects
+  JOIN pledges ON projects.id = pledges.project_id
+  GROUP BY projects.title HAVING SUM(pledges.amount) >= projects.funding_goal;
+  "
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"Write your SQL query Here"
+
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
