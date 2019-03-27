@@ -1,0 +1,46 @@
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
+(1, "Save the whales", "charity", 1000, 2019, 2020),
+(2, "Impeach the president", "politics", 20000, 2019, 2019),
+(3, "Help me go to Harvard", "charity", 50000, 2019, 2021),
+(4, "Graphing calculators for high schoolers", "charity", 500, 2019, 2019),
+(5, "Clean up garbage in the park", "community", 300, 2019, 2020),
+(6, "Common sense gun control", "politics", 900, 2019, 2021), 
+(7, "Reduce single use plastic waste", "community", 600, 2019, 2020),
+(8, "Baby clothes for refugees", "charity", 500, 2019, 2019),
+(9, "Pay off my cc debt", "charity", 1000000, 2019, 2021),
+(10, "Put speed bumps in school zone", "community", 500, 2019, 2019);
+
+INSERT INTO users(id, name, age) VALUES 
+(1, "Karly", 32), (2, "Matthew", 32), (3, "Ariel", 3), (4, "Adelia", 1), (5, "Scout", 8), (6, "Pumpkin", 6), (7, "Lisa", 57), (8, "Al", 62), (9, "Rosemary", 66), (10, "Joe", 68), (11, "Diane", 30), (12, "Pete", 31), (13, "Claire", 27), (14, "Jamie", 25), (15, "Frank", 30), (16, "Brianna", 0), (17, "John", 35), (18, "Abigail", 34), (19, "Faith", 25), (20, "Lara", 28);
+
+INSERT INTO pledges (id, amount, user_id, project_id) VALUES
+(1, 10.00, 1, 2),
+(2, 20.00, 1, 3),
+(3, 40.00, 1, 4),
+(4, 50.00, 2, 3),
+(5, 10.00, 3, 2),
+(6, 20.00, 4, 4),
+(7, 40.00, 5, 10),
+(8, 60.00, 6, 10),
+(9, 50.00, 7, 9),
+(10, 700.00, 8, 8),
+(11, 1000.00, 8, 7),
+(12, 40.00, 9, 6),
+(13, 50.00, 9, 3),
+(14, 50.00, 10, 4),
+(15, 24.00, 12, 1),
+(16, 34.00, 11, 1),
+(17, 12.00, 13, 6),
+(18, 19.00, 14, 5),
+(19, 20.00, 15, 5),
+(20, 40.00, 16, 6),
+(21, 35.50, 17, 7),
+(22, 40.00, 18, 8),
+(23, 60.00, 19, 9),
+(24, 70.00, 20, 10),
+(25, 100.00, 20, 4),
+(26, 40.00, 19, 1),
+(27, 20.00, 18, 6),
+(28, 90.00, 17, 9),
+(29, 230.00, 16, 6),
+(30, 450.00, 15, 5);
