@@ -95,11 +95,11 @@ describe "crowdfunder sql" do
     end
 
     it '#selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name' do
-      expect(@db.execute(selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name)).to eq([["Animal shelter needs dog food", 210], ["Help me buy a guitar", 98], ["Help save birds of paradise", 170], ["I have bed bugs!", 740], ["I want to teach English in China", 200], ["Iguana needs tail operation", 1035.5], ["My book on SQL", 20], ["The next Harry Potter", 120], ["The next Inna-Gadda-Davida", 342], ["Voldement needs a body", 489]])
+      expect(@db.execute(selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name)).to eq([["Animal shelter needs dog food", 50], ["Help me buy a guitar", 10], ["Help save birds of paradise", 700], ["I have bed bugs!", 60], ["I want to teach English in China", 50], ["Iguana needs tail operation", 40], ["My book on SQL", 20], ["The next Harry Potter", 40], ["The next Inna-Gadda-Davida", 20], ["Voldement needs a body", 10]])
     end
 
     it '#selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name' do
-      expect(@db.execute(selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name)).to eq([["Albus", 113, 470], ["Alex", 33, 20], ["Amanda", 24, 40], ["Bear", 6, 50], ["Ena", 24, 100], ["Finnebar", 17, 70], ["Franz", 100, 90], ["Hermione", 30, 50], ["Iguana", 4, 10], ["Katie", 24, 170], ["Marisa", 24, 24], ["Pacha", 5, 60], ["Rosey", 9, 50], ["Sirius", 36, 19], ["Sophie", 24, 60], ["Squid", 5, 270], ["Swizzle", 4, 12], ["Victoria", 23, 1700], ["Voldemort", 90, 34], ["Whale", 6, 125.5]])
+      expect(@db.execute(selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name)).to eq([["Albus", 113, 24], ["Alex", 33, 50], ["Amanda", 24, 10], ["Bear", 6, 20], ["Ena", 24, 20], ["Finnebar", 17, 10], ["Franz", 100, 50], ["Hermione", 30, 700], ["Iguana", 4, 40], ["Katie", 24, 40], ["Marisa", 24, 40], ["Pacha", 5, 19], ["Rosey", 9, 40], ["Sirius", 36, 50], ["Sophie", 24, 20], ["Squid", 5, 34], ["Swizzle", 4, 50], ["Victoria", 23, 60], ["Voldemort", 90, 1000], ["Whale", 6, 12]])
     end
 
     it '#selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal' do
@@ -115,7 +115,7 @@ describe "crowdfunder sql" do
     end
 
     it '#selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category' do
-      expect(@db.execute(selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category)).to eq([["books", 140]])
+      expect(@db.execute(selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category)).to eq([[nil, nil]])
     end
   end
 end
