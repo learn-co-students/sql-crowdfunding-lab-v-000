@@ -1,8 +1,8 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Nasa", "Science", 5000, "8/30/19", "1/30/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Music for America", "Music", 5000, "8/30/19", "1/30/20");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Homeless Shelters of America", "Homelessness", 5000, "8/30/19", "1/30/20");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Make-A-Wish Foundation of America", "Children", 5000, "8/30/19", "1/30/20");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Feeding America", "Hunger", 5000, "8/30/19", "1/30/20");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Salvation Army", "Domestic Needs", 5000, "8/30/19", "1/30/20");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Read to Every Child", "Books", 5000, "8/30/19", "1/30/20");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Habitat for Humanity International", "Housing", 5000, "8/30/19", "1/30/20");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Boys & Girls Clubs of America", "Children", 5000, "8/30/19", "1/30/20");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("YMCA", "Youth", 5000, "8/30/19", "1/30/20");
