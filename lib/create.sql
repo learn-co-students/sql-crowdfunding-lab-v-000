@@ -3,7 +3,7 @@
 -- A project has a title, a category, a funding goal, a start date, and an end date.
 CREATE TABLE IF NOT EXISTS projects
 (
-  id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal FLOAT,
+  id INTEGER PRIMARY KEY, title TEXT, category TEXT, funding_goal INTEGER,
   start_date DATE, end_date DATE
 );
 
@@ -16,5 +16,5 @@ CREATE TABLE users
 -- A pledge has an amount. It belongs to a user, and it also belongs to a project.
 CREATE TABLE pledges
 (
-  id INTEGER PRIMARY KEY, amount FLOAT, user_id INTEGER, project_id INTEGER
+  id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id INTEGER
 );
