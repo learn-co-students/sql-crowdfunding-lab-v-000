@@ -3,8 +3,8 @@ INSERT INTO users (id, name, age) VALUES (1, 'Finnebar', 17), (2, 'Bear', 6), (3
 (11, 'Voldemort', 90), (12, 'Marisa', 24), (13, 'Swizzle', 4), (14, 'Sirius', 36), (15, 'Albus', 113), (16, 'Squid', 5),
 (17, 'Whale', 6), (18, 'Pacha', 5), (19, 'Ena', 24), (20, 'Katie', 24);
 
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
-(1, 'Help me buy a guitar', 'music', 500.00, '2013-06-30', '2013-07-30'),
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES  
+(1, 'Help me buy a guitar', 'music', 500.00, '2013-06-30', '2013-07-30'),   
 (2, 'My book on SQL', 'books', 20.00, '2013-01-01', '2014-01-01'),
 (3, 'The next Harry Potter', 'books', 1000.00, '2013-05-30', '2015-05-30'),
 (4, 'Animal shelter needs dog food', 'charity', 400.00, '2013-03-14', '2013-06-30'),
