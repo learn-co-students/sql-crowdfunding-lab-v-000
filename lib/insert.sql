@@ -1,0 +1,65 @@
+-- Users
+INSERT INTO USERS (name, age) VALUES ('user1',20);
+INSERT INTO USERS (name, age) VALUES ('user2',22);
+INSERT INTO USERS (name, age) VALUES ('user3',24);
+INSERT INTO USERS (name, age) VALUES ('user4',26);
+INSERT INTO USERS (name, age) VALUES ('user5',28);
+INSERT INTO USERS (name, age) VALUES ('user6',30);
+INSERT INTO USERS (name, age) VALUES ('user7',32);
+INSERT INTO USERS (name, age) VALUES ('user8',34);
+INSERT INTO USERS (name, age) VALUES ('user9',36);
+INSERT INTO USERS (name, age) VALUES ('user10',38);
+INSERT INTO USERS (name, age) VALUES ('user11',40);
+INSERT INTO USERS (name, age) VALUES ('user12',42);
+INSERT INTO USERS (name, age) VALUES ('user13',44);
+INSERT INTO USERS (name, age) VALUES ('user14',46);
+INSERT INTO USERS (name, age) VALUES ('user15',48);
+INSERT INTO USERS (name, age) VALUES ('user16',50);
+INSERT INTO USERS (name, age) VALUES ('user17',52);
+INSERT INTO USERS (name, age) VALUES ('user18',54);
+INSERT INTO USERS (name, age) VALUES ('user19',56);
+INSERT INTO USERS (name, age) VALUES ('user20',58);
+
+-- Projects
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project1','arts',10,'1/1/1970','12/31/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project2','community',10,'1/1/1970','12/31/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project3','social justice',10,'1/1/1970','12/31/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project4','arts',20,'2/1/1970','11/30/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project5','community',20,'2/1/1970','11/30/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project6','social justic3',20,'2/1/1970','11/30/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project7','arts',30,'3/1/1970','10/31/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project8','community',30,'3/1/1970','10/31/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project9','social justice',30,'3/1/1970','10/31/1999');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('project10','arts',40,'4/1/1970','9/30/1999');
+
+-- Pledges
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,1,1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,1,1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,1,1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,2,1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,2,1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,2,1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,2,2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,2,2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,2,2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,3,5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,3,5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,3,5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,5,7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,5,7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,5,7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,10,9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,10,9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,10,9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (40,10,9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50,10,9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (40,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (60,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (70,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (80,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (90,6,10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100,6,10);
